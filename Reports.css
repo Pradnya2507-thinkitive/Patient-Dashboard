@@ -1,0 +1,88 @@
+.report-header{
+    background-color:  #31c996 ;
+    color: rgb(11, 11, 11);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.report-header{
+    font-size: 1rem;
+}
+
+.report-container{
+    width: 90%;
+    max-width: 1100px;
+    margin:35px auto;
+}
+
+.patient-info{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.patient-info h2{
+    color: #168b68;
+    margin-bottom: 15px;
+}
+
+.patient-info p{
+    margin: 8px 0;
+}
+
+.reports-section h2{
+    color: #168b68;
+    margin-bottom: 20px;
+}
+
+.table-wrapper{
+    width:100%;
+    overflow-x: auto;
+}
+
+.reports-table{
+    width:100%;
+    border-collapse: collapse;
+    text-align: left;
+    
+}
+
+.reports-table th{
+    background-color:#31c996;
+    padding: 15px;
+    color: rgb(23, 23, 23);
+}
+
+.reports-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.back-container {
+    margin-top: 25px;
+}
+
+.back-btn {
+    display: inline-block;
+    background-color: #31c996;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: #168b68;
+}
+
+.report-footer {
+  
+    color: rgb(13, 13, 13);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

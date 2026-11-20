@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 231, 231);
+    color: #0e1219;;
+    line-height: 1.6;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(200, 231, 231);
+    color: rgb(18, 18, 18);
+    text-align: center;
+    padding: 10px 15px ;
+
+}
+
+.header h1{
+font-size: 2rem;
+margin-bottom: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 15px;
+
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(28, 27, 27);
+    /* background-color: #0e1219; */
+}
+
+.dashboard{
+    width: 90%;
+    max-width: 1200px;
+    margin:40px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.profile-card{
+    width:30%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2{
+    color: #168b68;
+    margin-bottom: 20px;
+}
+
+.profile-img{
+    width:130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:2px solid  #0e1412;
+    margin-bottom: 15px;
+}
+
+.profile-card h3{
+    color:  #168b68;
+    margin-bottom: 15px;
+}
+
+.patient-details{
+    text-align: left;
+    line-height: 2.2;
+}
+
+.vital-section{
+    width: 65%;
+}
+
+.vital-section h2{
+    color:#168b68;
+    margin-bottom:20px;
+}
+
+.vital-box{
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    min-height: 280px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.vital-item{
+    background-color: #e6f8f1;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius:10px;
+    transition: transform 0.3s;
+}
+
+.vital-item:hover{
+    transform: translateY(-10px);
+}
+
+.vital-item i {
+    font-size: 35px;
+    color: #e30b0e;
+    margin-bottom: 15px;
+}
+
+.vital-item h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.vital-value {
+    font-size: 25px;
+    font-weight: bold;
+    color: #168b68;
+}
+
+.vital-item span {
+    font-size: 14px;
+    color: #64748b;
+}
+
+.footer{
+   text-align: center;
+   margin-top: 30px;
+}
+
+
+
+

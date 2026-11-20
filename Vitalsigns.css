@@ -1,0 +1,150 @@
+
+.vitals-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    min-height: 65vh;
+}
+
+
+
+.recent-vitals {
+    background-color: rgb(200, 231, 231);
+    padding: 25px;
+    border-radius: 12px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.vitals-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.vitals-heading h2 {
+    color: #1b1c1b;
+    font-size: 24px;
+}
+
+
+.add-record-btn {
+    display: inline-block;
+
+    background-color: #31c996;
+    color: rgb(31, 30, 30);
+
+    text-decoration: none;
+    padding: 11px 18px;
+
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.add-record-btn:hover {
+    background-color: #168b68;
+}
+
+
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+.vitals-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+
+
+.vitals-table th {
+    background-color: #31c996;
+    color: white;
+    padding: 15px;
+}
+
+
+.vitals-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.vitals-table tbody tr:nth-child(even) {
+    background-color: #e6f8f1;
+}
+
+
+.vitals-table tbody tr:hover {
+    background-color: #c9f1e2;
+}
+
+
+
+.back-container {
+    margin-top: 25px;
+}
+
+.back-btn {
+    display: inline-block;
+    border: 1px solid black;
+
+    background-color: #31c996;
+    color: white;
+
+    text-decoration: none;
+    padding: 10px 25px;
+
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: #168b68;
+}
+
+
+.vitals-footer {
+   
+    color: rgb(20, 19, 19);
+
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .vitals-container {
+        width: 95%;
+    }
+
+    .recent-vitals {
+        padding: 18px;
+    }
+
+    .vitals-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .add-record-btn {
+        width: 50%;
+        text-align: center;
+    }
+
+    .vitals-table {
+        min-width: 650px;
+    }
+}
